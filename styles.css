@@ -10,7 +10,7 @@ body {
 
 
 .post {
-    width: 300px;
+    width: 400px;
     background-color: white;
     border: 1px solid black;
     overflow: hidden;
@@ -21,8 +21,10 @@ body {
 .post-header {
     padding: 10px;
     font-weight: bold;
-    border-bottom: 1px solid #dbdbdb;
-    display: flex;
+    border-bottom: 1px solid white;
+    background-color: white;
+   
+  
 }
 .post-header p1 {
     font-weight: 700;
@@ -32,6 +34,12 @@ body {
 }
 .post-header p2 {
     font-size: 12px;
+}
+
+.post-header p1
+.post-header p2 {
+    display: block;
+
 }
 
 .post-header img {
