@@ -24,11 +24,14 @@ body {
     border-bottom: 1px solid #dbdbdb;
     display: flex;
 }
-.post-header p {
+.post-header p1 {
     font-weight: 700;
-    font-size: 15px;
+    font-size: 12px;
     margin-right: 20px;
 
+}
+.post-header p2 {
+    font-size: 12px;
 }
 
 .post-header img {
@@ -51,7 +54,7 @@ body {
 .post-icons {
     font-size: 20px;
     margin-bottom: 5px;
-    color: black;
+    
 }
 
 .post-body p {
