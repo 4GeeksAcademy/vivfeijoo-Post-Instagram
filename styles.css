@@ -8,7 +8,6 @@ body {
     margin: 0;
 }
 
-
 .post {
     width: 400px;
     background-color: white;
@@ -17,37 +16,48 @@ body {
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-
 .post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 10px;
     font-weight: bold;
     border-bottom: 1px solid white;
     background-color: white;
-   
-  
 }
-.post-header p1 {
+
+
+
+
+.left-section {
+    display: flex;
+    align-items: center;
+}
+
+.left-section i {
+    font-size: 20px;
+    margin-right: 8px;
+}
+
+.user-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-info .p1 {
     font-weight: 700;
     font-size: 12px;
-    margin-right: 20px;
-
+    margin: 0;
 }
-.post-header p2 {
+
+.user-info .p2 {
     font-size: 12px;
+    margin: 0;
 }
 
-.post-header p1
-.post-header p2 {
-    display: block;
-
+.post-header .fa-ellipsis-vertical {
+    font-size: 16px;
 }
-
-.post-header img {
-    width: 20px;
-    height: 20px;
-    border: 1px solid black;
-}
-
 
 .post-img img {
     width: 100%;
@@ -62,7 +72,6 @@ body {
 .post-icons {
     font-size: 20px;
     margin-bottom: 5px;
-    
 }
 
 .post-body p {
